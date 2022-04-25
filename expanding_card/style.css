@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    width: 95%;
+    margin:0 auto;
+}
+.one{
+    background-image: url(./img/1.jpg);
+}
+
+.two{
+    background-image: url(./img/2.jpg);
+}
+
+.three{
+    background-image: url(./img/3.jpg);
+}
+.four{
+    background-image: url(./img/4.jpg);
+    display:none;
+}
+.five{
+    background-image: url(./img/5.jpg);
+    display:none;
+}
+
+.section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    height: 90vh;
+    cursor: pointer;
+    flex: 0.2;
+    margin:8px;
+    position: relative;
+    transition: all 0.7s ease-out;
+    
+}
+.section.active{
+    flex: 5;
+}
+
+@media screen and (min-width:726px){
+    .four{
+        display: block;
+    }
+    .five{
+        display:block;
+    }
+}
