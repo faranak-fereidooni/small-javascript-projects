@@ -14,13 +14,12 @@ function IncreasePercent() {
 
   if (count % 10 === 0) {
     opacity -= 0.1;
-    loadingElement.style.opacity = `parseFloat(${opacity})`;
-    console.log(opacity);
+    loadingElement.style.opacity = `${opacity}`;
   }
 
   if (count === 100) {
-    loadingElement.style.opacity = 0;
-    clearInterval(intervalPercents);
+    loadingElement.style.opacity = "0.0";
+    clearInterval(intervalPercents);   
 
   }
 }
