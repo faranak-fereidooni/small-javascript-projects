@@ -1,4 +1,4 @@
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -131,4 +131,4 @@ nav a {
 nav a:hover {
   font-weight: bold;
   color: #d4d3d3;
-}
+} 
