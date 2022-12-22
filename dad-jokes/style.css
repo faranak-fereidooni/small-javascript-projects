@@ -1,6 +1,6 @@
 body{
     align-items: center;
-    background: #036f4e;
+    background: rgb(255, 186, 103);
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -27,7 +27,13 @@ body{
     font-size:18px;
 }
 #jokeBtn{
-    background: #53f0c1;
+        background-image: linear-gradient(
+        to right,
+        rgb(194, 110, 0) 0%,
+        rgb(250, 142, 2) 50%,
+        rgb(251, 171, 66) 100%
+        
+    );
     color:#fff;
     padding: 1rem 4rem;
     cursor:pointer;
@@ -35,6 +41,19 @@ body{
     border:none;
     border-radius: 1rem;
     font-size:16px;
+}
+#jokeBtn:hover{
+	    background-position: 100% 0;
+    background-size: 300% 100%;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(
+        to right,
+       #e85a19,
+       #fa7199, 
+       #e43603, 
+       #f5ce62
+        
+    );
 }
 .btn:active{
     transform:scale(0.8);
