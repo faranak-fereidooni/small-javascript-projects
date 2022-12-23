@@ -39,6 +39,12 @@
     background-position: 100% 0;
     background-size: 300% 100%;
     transition: all .4s ease-in-out;
-    background-image: linear-gradient(to right, #e85a19,#fa7199, #e43603, #f5ce62);
+    background-image: linear-gradient(
+      to right,
+       #e85a19,
+       #fa7199, 
+       #e43603, 
+       #f5ce62
+       );
     box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }

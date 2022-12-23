@@ -3,7 +3,12 @@
   }
   
   body {
-    background-color: #167657;
+    background-image: linear-gradient(
+      to right,
+      rgb(88, 2, 110) 0%,
+      rgb(88, 2, 110,0.7) 50%,
+      rgb(88, 2, 110,0.5) 100%
+    );
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -35,7 +40,7 @@
     left: 0;
     text-align: center;
     width: 100%;
-    color: #77f6d4;
+    color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
   }
