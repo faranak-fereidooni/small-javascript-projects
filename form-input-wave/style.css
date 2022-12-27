@@ -1,5 +1,11 @@
 body{
-    background-color: steelblue;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(74, 0, 74) 0%,
+    rgb(251, 104, 251) 50%,
+    rgb(249, 176, 249) 75%,
+    rgba(255, 220, 255) 100%
+  );
     color: #fff;
     font-family: 'Mulish', sans-serif;
     display: flex;
