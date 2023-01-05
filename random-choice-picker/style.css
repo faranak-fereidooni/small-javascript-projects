@@ -1,5 +1,11 @@
 body {
-  background: #fcc102;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 141, 2) 0%,
+    rgb(250, 189, 97) 50%,
+    rgb(252, 214, 164) 75%,
+    rgb(251, 248, 244) 100%
+);
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
